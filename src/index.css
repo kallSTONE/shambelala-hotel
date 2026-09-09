@@ -165,24 +165,21 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-
+width: 222px;
   color: var(--navy);
   font-weight: 600;
   letter-spacing: 0.14em;
-  font-size: 13px;
+  font-size: 13px;  
+  background: transparent;
 }
 
 .brand img,
 .footer-brand img {
-  height: 42px;
-  width: 42px;
+  display: flex;
+  height: 68px;
+  width:auto;
   object-fit: cover;
-  border-radius: 50%;
-  background: #fff;
-
-  box-shadow:
-    0 8px 24px rgba(7, 20, 38, 0.12);
-
+  background: transparent;
   padding: 2px;
 }
 
@@ -4602,9 +4599,7 @@ body.lem-home-redesign .brand img {
   width: 86px;
   height: 86px;
   padding: 3px;
-  border: 1px solid var(--lem-gold);
-  background: var(--lem-navy);
-  box-shadow: 0 8px 24px rgba(0,0,0,.24);
+  background: transparent;
 }
 
 body.lem-home-redesign .brand small {
@@ -4999,12 +4994,10 @@ body:not(.lem-home-redesign) .nav-wrap.home-chrome.is-hidden .brand {
 }
 
 body:not(.lem-home-redesign) .nav-wrap.home-chrome.is-hidden .brand img {
-  width: 58px;
-  height: 58px;
+  width: auto;
+  height: 86px;
   padding: 2px;
-  border: 1px solid var(--gold-light);
   background: transparent;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
 }
 
 body:not(.lem-home-redesign) .nav-wrap.home-chrome.is-hidden .nav-links,
@@ -5128,7 +5121,6 @@ body:not(.lem-home-redesign) .nav-wrap.home-chrome.is-hidden .book-button:hover 
   }
 
   body.lem-home-redesign .brand img {
-    width: 52px;
     height: 52px;
   }
 

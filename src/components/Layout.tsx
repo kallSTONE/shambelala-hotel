@@ -146,7 +146,7 @@ export function Footer({ onBook }: { onBook: () => void }) {
 
       <footer>
         <div className="footer-brand">
-          <img src="/image.png" alt="Shembelala Hotel" />
+          <img src="/logo.png" alt="Shembelala Hotel" />
           <span>Shembelala HOTEL<small>HOSSANA · ETHIOPIA</small></span>
         </div>
         <p>{tr(t.footer.tagline, lang)}</p>
