@@ -341,7 +341,6 @@ export default function Home({ onBook }: { onBook: () => void }) {
               <X size={20} />
             </button>
             <p className="eyebrow">Featured video</p>
-            <h2>Experience Lem Hotel</h2>
             <div className="video-modal-frame">
               <iframe
                 src="https://www.youtube.com/embed/sEAx9YeNQrw?autoplay=1&rel=0&modestbranding=1"

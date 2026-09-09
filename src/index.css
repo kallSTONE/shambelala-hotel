@@ -1768,9 +1768,9 @@ footer .footer-brand {
 .video-modal {
   position: relative;
 
-  width: min(920px, 100%);
+  width: min(700px, 100%);
 
-  padding: 28px;
+  padding: 8px;
 
   background: rgba(8, 18, 34, 0.96);
 
