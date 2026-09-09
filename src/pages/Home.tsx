@@ -199,7 +199,6 @@ export default function Home({ onBook }: { onBook: () => void }) {
               </div>
             </button>
 
-
           );
         })}
       </div>
