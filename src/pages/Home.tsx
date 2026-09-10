@@ -107,16 +107,6 @@ export default function Home({ onBook }: { onBook: () => void }) {
   }, []);
 
   useEffect(() => {
-    const cycle = window.setInterval(() => {
-      setHeroIndex((current) => (current + 1) % heroImages.length);
-    }, 4200);
-  
-    return () => window.clearInterval(cycle);
-  }, []);
-
-
-
-  useEffect(() => {
     if (!isVideoOpen) {
       return;
     }
