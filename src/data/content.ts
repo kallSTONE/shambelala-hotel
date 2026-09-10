@@ -220,7 +220,7 @@ export const nearbySites = [
 
 export const t = {
   nav: {
-    brand: { en: 'Shembelala Hotel Hossana', am: 'ለማ ሆቴል ሆሳዕና', had: 'Shembelala Hotel Hossana' },
+    brand: { en: 'Shembelala Hotel Hossana', am: 'ሸምበላላ ሆቴል ሆሳዕና', had: 'Shembelala Hotel Hossana' },
     home: { en: 'Home', am: 'መነሻ', had: 'Wode' },
     rooms: { en: 'Rooms', am: 'ክፍሎች', had: 'Baatte' },
     menu: { en: 'Menu', am: 'ሜኑ', had: 'Mennu' },
@@ -235,7 +235,7 @@ export const t = {
     eyebrow: { en: 'Great Comfort, Lexury and hospitality', am: 'የላቀ ምቾት፣ ጥራትና ምርጥ መስተንግዶ', had: 'Xiqqa xiiya gorsu' },
     title1: { en: 'Stay awhile.', am: ' ', had: 'Xiqqa baaru.' },
     title2: { en: 'Feel at home.', am: 'ከቤትዎ ውጭ ሁለተኛ ቤትዎ።', had: 'Lampe geeshsha.' },
-    welcome: { en: 'Welcome to Shembelala.', am: 'ወደ ለማ እንኳን በደህና መጡ።', had: 'Lemma gidaa welcome.' },
+    welcome: { en: 'Welcome to Shembelala.', am: 'ወደ ሸምበላላ እንኳን በደህና መጡ።', had: 'shambelala gidaa welcome.' },
     copy: { en: 'A quiet, considered hotel in the heart of Hossana. Come for the view, stay for the warmth.', am: 'በሆሳዕና እምብርት ጥራት ያለው ሆቴል።', had: 'Hossana giddo quiet hotel.' },
     cta1: { en: 'Find your room', am: 'አልጋዎን ያግኙ', had: 'Baatta kaawi' },
     cta2: { en: 'Watch our story', am: 'ታሪካችንን ይመልከቱ', had: 'Story aayi' },
@@ -258,7 +258,7 @@ export const t = {
     successTitle1: { en: 'We\'ll be in touch', am: 'እናንገዳለን', had: 'Qanino' },
     successTitle2: { en: 'shortly.', am: 'በቶሎ።', had: 'dume.' }, 
     successMsg: { en: 'Your stay request has been saved. Our team will confirm availability with you soon.', am: 'ጥያቄዎ ተቀምጧል። ቡድናችን ቶሎ ይመለሳል።', had: 'Request qaldi. Team toltu qaldanno.' },
-    back: { en: 'Back to Shembelala', am: 'ወደ ለማ ይመለሱ', had: 'Lemma gaa' },
+    back: { en: 'Back to Shembelala', am: 'ወደ ሸምበላላ ይመለሱ', had: 'shambelala gaa' },
   },
   sections: {
     stayEyebrow: { en: 'Stay with us', am: 'ከእኛ ጋር ይቆዩ', had: 'Baaru' },
@@ -271,14 +271,14 @@ export const t = {
     diningEyebrow: { en: 'At the table', am: 'በጠረጠሩ', had: 'Taable giddo' },
     diningTitle1: { en: 'Good food,', am: 'ጥሩ ምግብ፣', had: 'Woma shaguma,' },
     diningTitle2: { en: 'good company.', am: 'ጥሩ ጓደኞች።', had: 'woma soobu.' },
-    galleryEyebrow: { en: 'A glimpse of Shembelala', am: 'የለማ ጥንቃቄ', had: 'Shembelala aayi' },
+    galleryEyebrow: { en: 'A glimpse of Shembelala', am: 'የሸምበላላ ጥንቃቄ', had: 'Shembelala aayi' },
     galleryTitle1: { en: 'Come as you are.', am: 'እንዳሉ ይምጡ።', had: 'Ato ati nee.' },
     galleryTitle2: { en: 'Leave a little lighter.', am: 'ትንሽ ቀላል ይውጡ።', had: 'Xiqqa fayle ba\'a.' },
   },
   footer: {
     tagline: { en: 'Thoughtful stays in the heart of Hossana.', am: 'በሆሳዕና ልብ ውስጥ ጥንቃቄ ያለው ቆይታ።', had: 'Hossana giddo thoughtful stay.' },
     location: { en: 'Hossana, Ethiopia', am: 'ሆሳዕና፣ ኢትዮጵያ', had: 'Hossana, Ethiopia' },
-    rights: { en: '© 2026 Shembelala Hotel', am: '© 2026 ለማ ሆቴል', had: '© 2026 Lemma Hotel' },
+    rights: { en: '© 2026 Shembelala Hotel', am: '© 2026 ሸምበላላ ሆቴል', had: '© 2026 shambelala Hotel' },
   },
   rooms: {
     title: { en: 'Our Rooms', am: 'ክፍሎቻችን', had: 'Baatte' },
@@ -304,7 +304,7 @@ export const t = {
   },
   gallery: {
     title: { en: 'Gallery', am: 'የፎቶግራፍ ማህደር', had: 'Galleri' },
-    subtitle: { en: 'Moments from Shembelala — the rooms, the tables, the quiet corners.', am: 'ከለማ አፅታዎች — ክፍሎች፣ ጠረጠሮች፣ ጥብቅ ጥግ።', had: 'Lemma moments — rooms, tables, corners.' },
+    subtitle: { en: 'Moments from Shembelala — the rooms, the tables, the quiet corners.', am: 'ከሸምበላላ አፅታዎች — ክፍሎች፣ ጠረጠሮች፣ ጥብቅ ጥግ።', had: 'shambelala moments — rooms, tables, corners.' },
     all: { en: 'All', am: 'ሁሉም', had: 'Hoo' },
     rooms: { en: 'Rooms', am: 'ክፍሎች', had: 'Baatte' },
     dining: { en: 'Dining', am: 'ምግብ', had: 'Shaguma' },
@@ -313,9 +313,9 @@ export const t = {
   about: {
     title: { en: 'Our Story', am: 'ታሪካችን', had: 'Story' },
     subtitle: { en: 'A hotel built on warmth, rooted in Hossana.', am: 'በሞቅ የተገነባ ሆቴል፣ በሆሳዕና የተተከለ።', had: 'Hotel built on warmth, Hossana.' },
-    historyTitle: { en: 'The Shembelala Hotel story', am: 'የለማ ሆቴል ታሪክ', had: 'Lemma story' },
-    historyP1: { en: 'Shembelala Hotel opened its doors in 2018, the dream of a family who wanted to share the warmth of Hossana with the world. What began as a small guesthouse has grown into a beloved hotel, known for its quiet comfort and genuine hospitality.', am: 'ሌም ሆቴል በ2018 ተከፈተ፣ የቤተሰብ ህልም ነበር። ከትንሽ መነሻ ወደ ታዋቂ ሆቴል ደረሰ።', had: 'Lemma 2018 galatino, family dream.' },
-    historyP2: { en: 'The name "Shembelala" comes from the Name of Former Owner of the Hotel and the Founder of this Legacy and the Father of the current owners — the feeling we want every guest to carry home.', am: 'የለማ ሆቴል ስም ከ አቶ ለማ ኑኔ ከመስራች እና ባለቤት ስም የመጣ ነው።', had: 'Lemma means peace in Hadiyissa.' },
+    historyTitle: { en: 'The Shembelala Hotel story', am: 'የሸምበላላ ሆቴል ታሪክ', had: 'shambelala story' },
+    historyP1: { en: 'Shembelala Hotel opened its doors in 2018, the dream of a family who wanted to share the warmth of Hossana with the world. What began as a small guesthouse has grown into a beloved hotel, known for its quiet comfort and genuine hospitality.', am: 'ሌም ሆቴል በ2018 ተከፈተ፣ የቤተሰብ ህልም ነበር። ከትንሽ መነሻ ወደ ታዋቂ ሆቴል ደረሰ።', had: 'shambelala 2018 galatino, family dream.' },
+    historyP2: { en: 'The name "Shembelala" comes from the Name of Former Owner of the Hotel and the Founder of this Legacy and the Father of the current owners — the feeling we want every guest to carry home.', am: 'የሸምበላላ ሆቴል ስም ከ አቶ ሸምበላላ ኑኔ ከመስራች እና ባለቤት ስም የመጣ ነው።', had: 'shambelala means peace in Hadiyissa.' },
     valuesTitle: { en: 'What we believe', am: 'የምናምንበት', had: 'Neegi' },
     value1: { en: 'Genuine warmth', am: 'እውነተኛ ሞቅ', had: 'Genuine warmth' },
     value1Desc: { en: 'Every guest is welcomed as family, not as a transaction.', am: 'እያንዳንዱ እንግዳ እንደ ቤተሰብ ይቀበላል።', had: 'Every guest family.' },
@@ -323,7 +323,7 @@ export const t = {
     value2Desc: { en: 'We source from Hossana\'s farmers and artisans, and celebrate Hadiyissa culture.', am: 'በሆሳዕና አርሶ አደሮች እና የእጅ ባለሙያዎች የተሰሩ ምግቦችን እንበላለን።', had: 'Source from Hossana.' },
     value3: { en: 'Quiet comfort', am: 'ጸጥተኛ ምቾት', had: 'Quiet comfort' },
     value3Desc: { en: 'Our spaces are designed for rest — no noise, no rush, just ease.', am: 'ለመውለድ የተዘጋጁ ቦታዎች — ያለ ድምፅ፣ ያለ ትንኮስ።', had: 'Spaces for rest.' },
-    teamTitle: { en: 'The people of Shembelala', am: 'የሌም ሰዎች', had: 'Lemma people' },
+    teamTitle: { en: 'The people of Shembelala', am: 'የሌም ሰዎች', had: 'shambelala people' },
     teamSubtitle: { en: 'Meet the team that makes your stay feel like home.', am: 'ቆይታዎን እንደ ቤት የሚያደርጉትን አስተናጋጅ ይተዋወቁ።', had: 'Meet the team.' },
   },
   nearby: {
