@@ -136,9 +136,9 @@ export function Footer({ onBook }: { onBook: () => void }) {
         </div>
         <div className="footer-map">
         <iframe
-          src="https://www.google.com/maps?q=7.544521447496669,37.85091373331766&output=embed&t=k&z=18"
+          src="https://www.google.com/maps?q=7.554410188046119,37.85833184517542&output=embed&t=k&z=18"
           title="Shembelala Hotel location on Google Maps"
-          loading="lazy"
+          loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
         />
         </div>
