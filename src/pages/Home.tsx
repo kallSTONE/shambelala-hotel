@@ -199,6 +199,7 @@ export default function Home({ onBook }: { onBook: () => void }) {
               </div>
             </button>
 
+
           );
         })}
       </div>
@@ -341,10 +342,11 @@ export default function Home({ onBook }: { onBook: () => void }) {
               <X size={20} />
             </button>
             <p className="eyebrow">Featured video</p>
+            <h2>Experience Shembelala Hotel</h2>
             <div className="video-modal-frame">
               <iframe
-                src="https://www.youtube.com/embed/sEAx9YeNQrw?autoplay=1&rel=0&modestbranding=1"
-                title="Lem Hotel video"
+                src="https://www.youtube.com/embed/y--2fNZ0sV8?autoplay=1&rel=0&modestbranding=1"
+                title="Shembelala Hotel video"
                 allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                 allowFullScreen
               />
