@@ -52,10 +52,10 @@ const culturalTours = [
 
 const heroImages = [
   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
+  { desktop: photos.hero, mobile: photos.heroMobile },
   { desktop: photos.heroThird, mobile: photos.heroThirdMobile },  
   { desktop: photos.heroAlternate, mobile: photos.heroAlternateMobile },
   { desktop: photos.heroFourth, mobile: photos.heroFourthMobile },
-  { desktop: photos.hero, mobile: photos.heroMobile },
   { desktop: photos.heroFifth, mobile: photos.heroFifthMobile },
 ];
 
@@ -95,7 +95,16 @@ export default function Home({ onBook }: { onBook: () => void }) {
   useEffect(() => {
     setHeroIndex(0);
   }, [lang]);   
+  
+ 
+  useEffect(() => {
+    const cycle = window.setInterval(() => {
+      setHeroIndex((current: number) => (current === 0 ? 1 : 0));
+    }, 4200);
 
+      
+    return () => window.clearInterval(cycle);
+  }, []);
 
   useEffect(() => {
     const cycle = window.setInterval(() => {
